@@ -59,9 +59,9 @@ include '../aset/header.php';
                               ?>
                             </td>
                             <td>
-                              <a href="#" class="badge badge-primary">detail</a>
-                              <a href="#" class="badge badge-secondary">EDIT</a>
-                              <a href="#" class="badge badge-success">Hapus</a>
+                              <href="detail.php?id_pinjam=<?=$p['id_pinjam']?>&nama=<?=$p['$nama']?>"
+                              <href="form-edit.php?id_pinjam=<?=$p['id_pinjam']?>"
+                              <href="hapus.php?id_pinjam=<?=$p['id_pinjam']?>
                             </td>
                           </tr>
 
