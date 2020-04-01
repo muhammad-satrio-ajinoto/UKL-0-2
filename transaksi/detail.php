@@ -46,7 +46,7 @@ else
 <td><?=$detail['status']?></td>
 </tr>
 <?php
-if($detail['denda']>0}
+if($detail['denda']>0)
 {?>
 <tr>
 <td class = "table-danger" colspan="2">
@@ -59,7 +59,7 @@ if($detail['denda']>0}
 <tr>
 <td class="text-right" colspan="2">
 <a href="index.php" class="btn btn-success"><i class="fa fa-angle-double-left"></i>Kembali</a>
-<a class = "btn btn-primary"<?php if($detail['tgl_kembali']!=NULL{echo "disable";}?>"
+<a class = "btn btn-primary"<?php if($detail['tgl_kembali']!=NULL){echo "disable";}?>"
 href="form-kembali.php?id_pinjam=<?$detail['id_pinjam']?>$id_buku = <?=$detail['id_buku']?>"
 role="button">
 Form Pengembalian

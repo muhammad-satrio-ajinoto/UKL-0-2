@@ -1,3 +1,5 @@
+<?php
+
 function ambilBuku($koneksi)
 {
 	$sql = "SELECT id_buku, judul FROM buku";
@@ -84,7 +86,7 @@ function hitungDenda($koneksi,$id_pinjam,$tgl_kembali)
 	
 	return $denda;
 }
-
+?>
 	
 	
 

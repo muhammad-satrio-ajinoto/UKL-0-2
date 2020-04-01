@@ -59,9 +59,9 @@ include '../aset/header.php';
                               ?>
                             </td>
                             <td>
-                              <href="detail.php?id_pinjam=<?=$p['id_pinjam']?>&nama=<?=$p['$nama']?>"
-                              <href="form-edit.php?id_pinjam=<?=$p['id_pinjam']?>"
-                              <href="hapus.php?id_pinjam=<?=$p['id_pinjam']?>
+                              <a href="detail.php?id_pinjam=<?=$p['id_pinjam']?>&nama=<?=$p['$nama']?>"
+                              <a href="form-edit.php?id_pinjam=<?=$p['id_pinjam']?>"
+                              <a href="hapus.php?id_pinjam=<?=$p['id_pinjam']?>
                             </td>
                           </tr>
 
